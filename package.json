@@ -1,0 +1,28 @@
+{
+  "name": "pagandoButton",
+  "version": "0.0.49",
+  "description": "none",
+  "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "npm run test",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "files": [
+    "lib",
+    "index.d.ts",
+    "index.ts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "axios": "^1.7.2",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.5.3"
+  }
+}

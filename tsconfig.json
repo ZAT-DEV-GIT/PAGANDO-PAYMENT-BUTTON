@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Cambiado de ES5 a ESNext
+    "module": "commonjs", // Cambiado de commonjs a ESNext
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+    "include": ["src", "lib/**/*", "index.d.ts", "index.js"],
+  }
